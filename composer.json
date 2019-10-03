@@ -26,7 +26,6 @@
     ],
     "require": {
         "php": "^7.1",
-        "alcaeus/mongo-php-adapter": "^1.1",
         "doctrine/mongodb-odm": "^2.0",
         "doctrine/mongodb-odm-bundle": "^4.0",
         "sonata-project/admin-bundle": "^3.31",
@@ -50,10 +49,7 @@
         "alcaeus/mongo-php-adapter": "Allows usage of PHP 7"
     },
     "config": {
-        "sort-packages": true,
-        "platform": {
-            "ext-mongo": "1.6.16"
-        }
+        "sort-packages": true
     },
     "extra": {
         "branch-alias": {
